@@ -1,0 +1,342 @@
+$date
+	Tue Nov  3 20:25:11 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module vga_pic_tb $end
+$var wire 16 ! pix_data [15:0] $end
+$var reg 10 " pix_x [9:0] $end
+$var reg 10 # pix_y [9:0] $end
+$var reg 1 $ sys_rst_n $end
+$var reg 1 % vga_clk $end
+$scope module dut $end
+$var wire 1 & in_m_box $end
+$var wire 1 ' in_s_box $end
+$var wire 1 ( in_t_box $end
+$var wire 1 ) in_u_box $end
+$var wire 1 * in_y_box $end
+$var wire 10 + pix_x [9:0] $end
+$var wire 10 , pix_y [9:0] $end
+$var wire 1 $ sys_rst_n $end
+$var wire 1 % vga_clk $end
+$var wire 10 - local_y [9:0] $end
+$var wire 10 . local_x [9:0] $end
+$var wire 3 / char_y [2:0] $end
+$var wire 3 0 char_x [2:0] $end
+$var parameter 16 1 BLACK $end
+$var parameter 10 2 CHAR_SIZE $end
+$var parameter 10 3 CHAR_Y $end
+$var parameter 16 4 CYAN $end
+$var parameter 16 5 GREEN $end
+$var parameter 8 6 M_ROW_0 $end
+$var parameter 8 7 M_ROW_1 $end
+$var parameter 8 8 M_ROW_2 $end
+$var parameter 8 9 M_ROW_3 $end
+$var parameter 8 : M_ROW_4 $end
+$var parameter 8 ; M_ROW_5 $end
+$var parameter 8 < M_ROW_6 $end
+$var parameter 8 = M_ROW_7 $end
+$var parameter 10 > M_X $end
+$var parameter 16 ? RED $end
+$var parameter 8 @ S_ROW_0 $end
+$var parameter 8 A S_ROW_1 $end
+$var parameter 8 B S_ROW_2 $end
+$var parameter 8 C S_ROW_3 $end
+$var parameter 8 D S_ROW_4 $end
+$var parameter 8 E S_ROW_5 $end
+$var parameter 8 F S_ROW_6 $end
+$var parameter 8 G S_ROW_7 $end
+$var parameter 10 H S_X $end
+$var parameter 8 I T_ROW_0 $end
+$var parameter 8 J T_ROW_1 $end
+$var parameter 8 K T_ROW_2 $end
+$var parameter 8 L T_ROW_3 $end
+$var parameter 8 M T_ROW_4 $end
+$var parameter 8 N T_ROW_5 $end
+$var parameter 8 O T_ROW_6 $end
+$var parameter 8 P T_ROW_7 $end
+$var parameter 10 Q T_X $end
+$var parameter 8 R U_ROW_0 $end
+$var parameter 8 S U_ROW_1 $end
+$var parameter 8 T U_ROW_2 $end
+$var parameter 8 U U_ROW_3 $end
+$var parameter 8 V U_ROW_4 $end
+$var parameter 8 W U_ROW_5 $end
+$var parameter 8 X U_ROW_6 $end
+$var parameter 8 Y U_ROW_7 $end
+$var parameter 10 Z U_X $end
+$var parameter 16 [ YELLOW $end
+$var reg 16 \ pix_data [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111111111100000 [
+b11110000 Z
+b1111110 Y
+b11000011 X
+b11000011 W
+b11000011 V
+b11000011 U
+b11000011 T
+b11000011 S
+b11000011 R
+b110110000 Q
+b11000 P
+b11000 O
+b11000 N
+b11000 M
+b11000 L
+b11000 K
+b11111111 J
+b11111111 I
+b101010000 H
+b1111110 G
+b11000011 F
+b11 E
+b11 D
+b1111110 C
+b11000000 B
+b11000011 A
+b1111110 @
+b1111100000000000 ?
+b10010000 >
+b11000011 =
+b11000011 <
+b11000011 ;
+b11000011 :
+b11011011 9
+b11111111 8
+b11100111 7
+b11000011 6
+b11111100000 5
+b11111111111 4
+b11010000 3
+b1000000 2
+b0 1
+$end
+#0
+$dumpvars
+b0 \
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+b0 #
+b0 "
+b0 !
+$end
+#20
+1%
+#25
+1$
+#40
+0%
+#60
+1%
+#65
+1(
+1*
+b11010000 #
+b11010000 ,
+b110110000 "
+b110110000 +
+#80
+0%
+#100
+b1111111111100000 !
+b1111111111100000 \
+1%
+#105
+b10 /
+b10000 -
+b11100000 #
+b11100000 ,
+#120
+0%
+#140
+b0 !
+b0 \
+1%
+#145
+b10 0
+b10000 .
+0(
+1&
+0)
+0'
+b10100000 "
+b10100000 +
+#160
+0%
+#180
+b1111100000000000 !
+b1111100000000000 \
+1%
+#185
+b0 /
+b0 0
+b0 -
+0&
+b0 .
+b11010000 #
+b11010000 ,
+b11010000 "
+b11010000 +
+#200
+0%
+#220
+b0 !
+b0 \
+1%
+#225
+1)
+b11110000 "
+b11110000 +
+#240
+0%
+#260
+b11111100000 !
+b11111100000 \
+1%
+#265
+b10 0
+b10000 .
+b100000000 "
+b100000000 +
+#280
+0%
+#300
+b0 !
+b0 \
+1%
+#305
+0$
+#320
+0%
+#340
+1%
+#345
+b111 /
+b111000 -
+b100001000 #
+b100001000 ,
+#360
+0%
+#380
+1%
+#385
+b0 0
+b0 /
+1'
+b0 .
+b0 -
+0)
+b11010000 #
+b11010000 ,
+b101010000 "
+b101010000 +
+#400
+0%
+#420
+1%
+#425
+b1 0
+b1000 .
+b101011000 "
+b101011000 +
+#440
+0%
+#460
+1%
+#465
+b0 0
+b0 .
+b10 /
+b10000 -
+b11100000 #
+b11100000 ,
+b101010000 "
+b101010000 +
+#480
+0%
+#500
+1%
+#505
+b0 /
+0'
+b0 -
+1&
+0)
+b11010000 #
+b11010000 ,
+b10010000 "
+b10010000 +
+#520
+0%
+#540
+1%
+#545
+b10 0
+b10000 .
+b10100000 "
+b10100000 +
+#560
+0%
+#580
+1%
+#585
+b10 /
+1(
+b11 0
+b10000 -
+0&
+b11000 .
+b11100000 #
+b11100000 ,
+b111001000 "
+b111001000 +
+#600
+0%
+#620
+1%
+#625
+1$
+#640
+0%
+#660
+b1111111111100000 !
+b1111111111100000 \
+1%
+#665
+b0 0
+b0 .
+b0 /
+0*
+b0 -
+0(
+b1111111111 #
+b1111111111 ,
+b1111111111 "
+b1111111111 +
+#680
+0%
+#700
+b0 !
+b0 \
+1%
+#705
